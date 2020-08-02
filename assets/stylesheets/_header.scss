@@ -1,0 +1,16 @@
+.logo {
+    img {
+        width: 25%;
+    }
+}
+.list-items {
+    margin-right: 2.2rem;
+    &:last-child {
+        margin-right: 0;
+    }
+    a {
+        font-size: 1.2rem;
+        text-transform: uppercase;
+        font-weight: 600;
+    }
+}

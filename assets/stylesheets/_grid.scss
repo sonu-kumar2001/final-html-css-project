@@ -38,3 +38,15 @@
 .col-12 {
     grid-template-columns: repeat(12,1fr);
 }
+// col-gap
+.col-gap-2 {
+    column-gap: 2rem;
+}
+.col-gap-2.5 {
+    column-gap: 2.5rem;
+}
+// position
+.grid-self-center {
+    justify-self: center;
+    align-self: center;
+}
